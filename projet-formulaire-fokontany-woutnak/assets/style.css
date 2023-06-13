@@ -17,10 +17,11 @@
 }
 
 .presentation{
-
-    padding-top: 200px;
-    position:absolute;
-    border-radius: 50px;
+    margin-top: 80px;
+    justify-content: center;
+    display: flex;
+    border-radius: 5px 5px;
+    
 }
 
 .texte{
@@ -50,11 +51,6 @@
       
 }
 
-.multimedia{
-    margin-left: 500px;
-    margin-top: 1000px;
-    
-}
 
 label{
 
@@ -106,4 +102,10 @@ a{
     color: white;
     text-decoration:none;
     text-align: center;
+}
+
+.multimedia{
+    margin-top: 80px;
+    justify-content: center;
+    display:block;
 }
